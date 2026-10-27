@@ -14,3 +14,6 @@
 
 /* v1.3: consultation form feedback */
 .form-status.success{color:#1c6b3b;font-weight:700}.form-status.error{color:#a02929;font-weight:700}
+
+/* v1.4: optional field hint */
+label .optional{color:#718078;font-weight:400;font-size:.75rem}

@@ -1,4 +1,4 @@
-# Privacy Shrub Service — Website v1.3
+# Privacy Shrub Service — Website v1.4
 
 ## Preview
 Extract the entire ZIP. Open `index.html` in Chrome with `styles.css`, `script.js`, and the `images/` folder alongside it.
@@ -6,7 +6,7 @@ Extract the entire ZIP. Open `index.html` in Chrome with `styles.css`, `script.j
 ## Consultation form
 Formspree endpoint: `https://formspree.io/f/mzeerkya`
 
-The form uses asynchronous POST with validation and visible success/error messages. No customer data is stored in the browser. It sends name, email, location, project size, message, and consent. A hidden spam-trap field is included.
+The form uses asynchronous POST with validation and visible success/error messages. No customer data is stored in the browser. It sends name, email, optional phone, preferred contact method (email/phone/either), location, project size, message, and consent. Phone is not required. A hidden spam-trap field is included.
 
 ### Test before publishing
 1. Fill in the form with **TEST SUBMISSION** in the project description.
@@ -25,3 +25,9 @@ Four service photographs use remote Pexels/Unsplash URLs. See `PHOTO_SOURCES.md`
 
 ## Before public launch
 Confirm business claims, relevant licensing/insurance, privacy disclosure, image licenses and accuracy, and form delivery. GitHub Pages is public once enabled.
+
+## v1.4 changes
+Added optional telephone input and preferred contact method dropdown; clarified contact consent and success message. No changes to Formspree endpoint or website imagery.
+
+## Update an existing GitHub Pages deployment
+Upload the changed `index.html`, `styles.css`, `script.js`, and `README.md` to the repository root, replacing their previous versions. The `images/` folder is unchanged. Allow GitHub Pages to redeploy, then test on the live URL.

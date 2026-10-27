@@ -25,7 +25,7 @@ form.addEventListener('submit', async (event) => {
     });
     if (!response.ok) throw new Error('Submission failed');
     form.reset();
-    status.textContent = 'Thank you. Your consultation request has been sent. We will follow up by email.';
+    status.textContent = 'Thank you. Your consultation request has been sent. We will follow up using your preferred contact method.';
     status.classList.add('success');
   } catch (error) {
     status.textContent = 'We could not send your request. Please try again in a moment.';
